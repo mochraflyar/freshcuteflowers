@@ -202,7 +202,7 @@ function renderOrders() {
             <option value="selesai"  ${status==='selesai'  ? 'selected':''}>🟢 Selesai</option>
           </select>
           <button class="del-btn" onclick="deleteOrder(${order.id})">Hapus 🗑</button>
-          <a href="https://wa.me/${order.nomor_hp}" target="_blank"
+          <a href="https://wa.me/${formatWA(order.nomor_hp)}" target="_blank"
              style="text-decoration:none;background:#25D366;color:white;padding:5px 10px;border-radius:6px;font-size:0.8rem;">
             💬 WA
           </a>
