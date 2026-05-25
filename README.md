@@ -1,3 +1,4 @@
+<img width="1100" height="1505" alt="Tampilan Web" src="https://github.com/user-attachments/assets/1ecb2bff-3b4e-4e0b-bc14-99e60f62135b" />
 <div align="center">
 
 # 🌸 Fresh Cute Flower
