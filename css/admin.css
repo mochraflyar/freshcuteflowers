@@ -536,3 +536,19 @@ body:has(.admin-wrapper.visible) { background-color: var(--bg-admin); }
   .keu-form-grid{ grid-template-columns: 1fr; }
   .admin-wrapper{ padding: 1.2rem 1rem; }
 }
+
+/* Tombol Export Excel */
+.export-btn {
+  padding: 0.45rem 1rem;
+  background: #e8f5e9;
+  color: #2e7d32;
+  border: 1px solid #a5d6a7;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  cursor: pointer;
+  font-family: var(--font-sans);
+  transition: background 0.2s;
+}
+
+.export-btn:hover { background: #c8e6c9; }
